@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("snippet-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c300ee7349391fe56d4b58b1309be1d1fc4ee36b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2465e7e1d626101d0c67282d9e415de6752e53a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("snippet-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("snippet-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
