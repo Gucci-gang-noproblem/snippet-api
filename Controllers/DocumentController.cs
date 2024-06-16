@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Models;
+using Core.Model;
 [ApiController]
 [Route("api")]
 public class DocumentController : ControllerBase
@@ -32,11 +33,20 @@ public class DocumentController : ControllerBase
         {
             return BadRequest($"Error reading document: {ex.Message}");
         }
-
+        var results = new List<SnippetDocument>();
         var snippets = GetSnippets(documentText, snipWord.Word);
-
-        return Ok(new { snippets });
-    }
+            results.Add(new SnippetDocument
+            {
+                MUrl = snipWord.DocumentPath,
+                SnippetSentences = snippets.Select(s => new SnippetSentence
+                {
+                    ID = snipWord.Id,
+                    WordSearch = snipWord.Word,
+                    Sentences = new List<string> { s }
+                }).ToList()
+            });
+            return Ok(results);
+        }
 
     private List<string> GetSnippets(string text, string word)
     {

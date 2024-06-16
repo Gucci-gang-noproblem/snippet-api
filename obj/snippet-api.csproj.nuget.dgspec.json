@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\snippet-api\\snippet-api.csproj": {}
+    "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\docsearch-y-scale\\snippet-api\\snippet-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\snippet-api\\snippet-api.csproj": {
+    "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\docsearch-y-scale\\snippet-api\\snippet-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\snippet-api\\snippet-api.csproj",
+        "projectUniqueName": "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\docsearch-y-scale\\snippet-api\\snippet-api.csproj",
         "projectName": "snippet-api",
-        "projectPath": "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\snippet-api\\snippet-api.csproj",
+        "projectPath": "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\docsearch-y-scale\\snippet-api\\snippet-api.csproj",
         "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\snippet-api\\obj\\",
+        "outputPath": "C:\\Users\\jacob\\OneDrive\\Skrivebord\\ArkitekturPrincipperEksamen\\docsearch-y-scale\\snippet-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
